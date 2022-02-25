@@ -1,0 +1,35 @@
+
+id: 0
+command: command
+response: b'ok'
+start time: 2022-02-18 16:32:31.434818
+end_time: 2022-02-18 16:32:31.593290
+duration: 0.158472
+
+id: 1
+command: takeoff
+response: b'ok'
+start time: 2022-02-18 16:32:31.593367
+end_time: 2022-02-18 16:32:38.156831
+duration: 6.563464
+
+id: 2
+command: battery 20
+response: b'unknown command: battery'
+start time: 2022-02-18 16:32:43.162201
+end_time: 2022-02-18 16:32:43.310126
+duration: 0.147925
+
+id: 3
+command: flip l
+response: b'ok'
+start time: 2022-02-18 16:32:43.310209
+end_time: 2022-02-18 16:32:46.975170
+duration: 3.664961
+
+id: 4
+command: land
+response: b'ok'
+start time: 2022-02-18 16:32:48.372719
+end_time: 2022-02-18 16:32:52.100605
+duration: 3.727886

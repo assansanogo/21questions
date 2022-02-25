@@ -1,0 +1,7 @@
+command
+takeoff
+delay 5
+battery 20
+flip f
+delay 5
+land

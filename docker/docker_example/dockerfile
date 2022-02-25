@@ -1,0 +1,8 @@
+# alpine est une version de python très légère
+FROM alpine:3.4
+
+# 3 commandes pour installer les librairies update,vim et curl
+# apk est le manager de paquets pour alpine
+RUN apk update
+RUN apk add vim
+RUN apk add curl

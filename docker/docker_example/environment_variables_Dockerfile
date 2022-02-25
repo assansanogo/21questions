@@ -1,0 +1,6 @@
+FROM ubuntu:18.04
+ENV FOO=/bonne_annee
+WORKDIR ${FOO}   
+# WORKDIR /bonne_annee on se place dans le repertoire bonne_annee de l image
+COPY \$FOO /2022 
+# COPY $FOO /2022 on copie le contenu de /bonne_annee dans le répertoire /2022

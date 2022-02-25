@@ -1,0 +1,4 @@
+FROM ubuntu:18.04
+RUN sudo apt-get update && apt-get install -y python3 python3-pip 
+RUN pip3 install pandas scikit-learn
+CMD ["python3"]

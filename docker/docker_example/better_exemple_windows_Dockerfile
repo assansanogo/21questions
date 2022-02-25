@@ -1,0 +1,8 @@
+# escape=`
+# la première ligne est uen directive qui 
+# "explique à Docker que nous sommes en mode : 'windows'"
+# autrement dit que l'on utilise \ pour séparer les répertoires
+
+FROM microsoft/nanoserver
+COPY testfile.txt c:\
+RUN dir c:\
